@@ -19,4 +19,4 @@ while True:
 print(file_lines)
 file_handle.close()
 
-a = numpy.array()
+
