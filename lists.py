@@ -39,3 +39,25 @@ print(a_list)
 
 a_list.insert(2,3)
 print(a_list)
+
+
+#finding the deltas for an integer list
+
+a_list = [3,5,7,10,1,6]
+
+
+for second_num in a_list[1::2]:
+    print(second_num)
+
+
+deltas = []
+for i in range(1,len(a_list)):
+    deltas.append(a_list[i] - a_list[i-1])
+
+
+print(deltas)
+
+a = [3,1,1]
+b = [7,8,9]
+c = a-b
+print(c)
